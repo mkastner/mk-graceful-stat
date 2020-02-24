@@ -1,0 +1,20 @@
+{
+  "name": "mk-graceful-stat",
+  "version": "0.0.1",
+  "description": "A stat promise returning boolean values",
+  "main": "index.js",
+  "repository": "https://github.com/mkastner/mk-graceful-stat.git",
+  "author": "John Galt",
+  "license": "MIT",
+  "devDependencies": {
+    "mk-log": "https://github.com/mkastner/mk-log.git#0.0.9",
+    "nodemon": "^2.0.2",
+    "tape": "^4.13.0"
+  },
+  "peerDependencies": {
+    "mk-log": "https://github.com/mkastner/mk-log.git#0.0.9"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test node test/index.test.js"
+  }
+}
