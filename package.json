@@ -7,12 +7,12 @@
   "author": "John Galt",
   "license": "MIT",
   "devDependencies": {
-    "mk-log": "https://github.com/mkastner/mk-log.git#v0.0.9",
+    "mk-log": "https://github.com/mkastner/mk-log.git#v0.0.12",
     "nodemon": "^2.0.2",
     "tape": "^4.13.0"
   },
   "peerDependencies": {
-    "mk-log": "https://github.com/mkastner/mk-log.git#v0.0.9"
+    "mk-log": "https://github.com/mkastner/mk-log.git#v0.0.12"
   },
   "scripts": {
     "test": "NODE_ENV=test node test/index.test.js"
