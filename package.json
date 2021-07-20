@@ -1,6 +1,6 @@
 {
   "name": "mk-graceful-stat",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A stat promise returning boolean values",
   "main": "index.js",
   "repository": "https://github.com/mkastner/mk-graceful-stat.git",
